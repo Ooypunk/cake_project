@@ -1,0 +1,332 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2017-03-02 13:10+0100\n"
+"PO-Revision-Date: 2017-03-02 13:12+0100\n"
+"Last-Translator: Paul Staring <paul@dgict.nl>\n"
+"Language-Team: EMAIL@ADDRESS\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Controller/ProjectsController.php:29
+#: Template/Layout/TwitterBootstrap/dashboard.ctp:29
+msgid "Projects"
+msgstr "Projecten"
+
+#: Controller/ProjectsController.php:66;94
+msgid "The project has been saved."
+msgstr "Het project is opgeslagen"
+
+#: Controller/ProjectsController.php:70;98
+msgid "The project could not be saved. Please, try again."
+msgstr "Het project kon niet worden opgeslagen. Probeer alstublieft opnieuw."
+
+#: Controller/ProjectsController.php:76
+msgid "Add Project"
+msgstr "Project toevoegen"
+
+#: Controller/ProjectsController.php:104 Template/Projects/view.ctp:8
+msgid "Edit Project"
+msgstr "Project wijzigen"
+
+#: Controller/TagsController.php:52;78
+msgid "The tag has been saved."
+msgstr "De tag is opgeslagen."
+
+#: Controller/TagsController.php:56;82
+msgid "The tag could not be saved. Please, try again."
+msgstr "De tag kon niet worden opgeslagen. Probeer alstublieft opnieuw."
+
+#: Controller/TagsController.php:101
+msgid "The tag has been deleted."
+msgstr "De tag is verwijderd."
+
+#: Controller/TagsController.php:103
+msgid "The tag could not be deleted. Please, try again."
+msgstr "De tag kon niet worden verwijderd. Probeer alstublieft opnieuw."
+
+#: Controller/TasksController.php:28
+msgid "Tasks"
+msgstr "Taken"
+
+#: Controller/TasksController.php:61;89
+msgid "The task has been saved."
+msgstr "De taak is opgeslagen."
+
+#: Controller/TasksController.php:65;93
+msgid "The task could not be saved. Please, try again."
+msgstr "De taak kon niet worden opgeslagen. Probeer alstublieft opnieuw."
+
+#: Controller/TasksController.php:71
+msgid "Add Task"
+msgstr "Taak toevoegen"
+
+#: Controller/TasksController.php:99 Template/Tasks/view.ctp:8
+msgid "Edit Task"
+msgstr "Taak wijzigen"
+
+#: Controller/TasksController.php:112
+msgid "The task has been archived."
+msgstr "De taak is gearchiveerd."
+
+#: Controller/TasksController.php:114
+msgid "The task could not be archived. Please, try again."
+msgstr "De taak kon niet worden gearchiveerd. Probeer het opnieuw."
+
+#: Controller/TasksController.php:129
+msgid "Cannot complete a task that has children"
+msgstr "Een task met subtaken mag niet Voltooid worden gemarkeerd"
+
+#: Controller/TasksController.php:132
+msgid "The task has been completed."
+msgstr "De taak is voltooid."
+
+#: Controller/TasksController.php:134
+msgid "The task could not be completed. Please, try again."
+msgstr "De taak kon niet worden voltooid. Probeer het opnieuw."
+
+#: Template/Element/Tasks/table.ctp:3 Template/Projects/view.ctp:55
+#: Template/Tags/view.ctp:27;36 Template/Tasks/view.ctp:28
+msgid "Id"
+msgstr "Id"
+
+#: Template/Element/Tasks/table.ctp:4 Template/Projects/view.ctp:56
+#: Template/Tags/view.ctp:23;38 Template/Tasks/view.ctp:32
+msgid "Title"
+msgstr "Titel"
+
+#: Template/Element/Tasks/table.ctp:5 Template/Tasks/view.ctp:40
+msgid "Completed"
+msgstr "Voltooid"
+
+#: Template/Element/Tasks/table.ctp:6 Template/Projects/index.ctp:20
+#: Template/Projects/view.ctp:57 Template/Tags/add.ctp:8
+#: Template/Tags/edit.ctp:8 Template/Tags/index.ctp:8;23
+#: Template/Tags/view.ctp:8;39 Template/Tasks/add.ctp:8
+#: Template/Tasks/index.ctp:23
+msgid "Actions"
+msgstr "Acties"
+
+#: Template/Element/Tasks/table.ctp:14 Template/Projects/index.ctp:30
+#: Template/Projects/view.ctp:64 Template/Tags/index.ctp:32
+#: Template/Tags/view.ctp:47 Template/Tasks/index.ctp:34
+msgid "View"
+msgstr "Bekijken"
+
+#: Template/Element/Tasks/table.ctp:15 Template/Projects/index.ctp:31
+#: Template/Projects/view.ctp:65 Template/Tags/index.ctp:33
+#: Template/Tags/view.ctp:48 Template/Tasks/index.ctp:35
+msgid "Edit"
+msgstr "Wijzigen"
+
+#: Template/Element/Tasks/table.ctp:16 Template/Projects/index.ctp:32
+#: Template/Tasks/index.ctp:36
+msgid "Archive"
+msgstr "Archiveren"
+
+#: Template/Element/Tasks/table.ctp:16 Template/Projects/index.ctp:32
+#: Template/Tasks/index.ctp:36 Template/Tasks/view.ctp:12
+msgid "Are you sure you want to archive # {0}?"
+msgstr "Weet u zeker dat u # {0} wil archiveren?"
+
+#: Template/Layout/error.ctp:35
+msgid "Error"
+msgstr "Fout"
+
+#: Template/Layout/error.ctp:43
+msgid "Back"
+msgstr "Terug"
+
+#: Template/Layout/TwitterBootstrap/dashboard.ctp:32
+msgid "Admin"
+msgstr "Beheer"
+
+#: Template/Layout/TwitterBootstrap/dashboard.ctp:35
+#: Template/Projects/view.ctp:16 Template/Tags/index.ctp:17
+msgid "Tags"
+msgstr "Tags"
+
+#: Template/Projects/add.ctp:11 Template/Tags/add.ctp:10
+#: Template/Tags/edit.ctp:16 Template/Tags/index.ctp:10
+#: Template/Tags/view.ctp:13 Template/Tasks/add.ctp:12
+#: Template/Tasks/index.ctp:9
+msgid "List Projects"
+msgstr "Projectenoverzicht"
+
+#: Template/Projects/add.ctp:12 Template/Tasks/add.ctp:9
+msgid "List Tasks"
+msgstr "Takenoverzicht"
+
+#: Template/Projects/add.ctp:13 Template/Tasks/index.ctp:8
+msgid "New Task"
+msgstr "Nieuwe taak"
+
+#: Template/Projects/add.ctp:14 Template/Tags/add.ctp:9
+#: Template/Tags/edit.ctp:15 Template/Tags/view.ctp:11
+msgid "List Tags"
+msgstr "Tagsoverzicht"
+
+#: Template/Projects/add.ctp:15 Template/Projects/edit.ctp:12
+#: Template/Tags/index.ctp:9 Template/Tags/view.ctp:12
+msgid "New Tag"
+msgstr "Nieuwe tag"
+
+#: Template/Projects/add.ctp:29 Template/Projects/edit.ctp:26
+#: Template/Tags/add.ctp:25 Template/Tags/edit.ctp:31 Template/Tasks/add.ctp:28
+#: Template/Tasks/edit.ctp:24
+msgid "Submit"
+msgstr "Verzenden"
+
+#: Template/Projects/edit.ctp:11
+msgid "Archive Project"
+msgstr "Project archiveren"
+
+#: Template/Projects/edit.ctp:11
+msgid "Are you sure you want to archive \"{0}\"?"
+msgstr "Weet u zeker dat u \"{0}\" wil archiveren?"
+
+#: Template/Projects/edit.ctp:27 Template/Tasks/edit.ctp:25
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: Template/Projects/index.ctp:8 Template/Tags/add.ctp:11
+#: Template/Tags/edit.ctp:17 Template/Tags/index.ctp:11
+#: Template/Tags/view.ctp:14 Template/Tasks/add.ctp:13
+#: Template/Tasks/index.ctp:10
+msgid "New Project"
+msgstr "Nieuw project"
+
+#: Template/Projects/index.ctp:40 Template/Tags/index.ctp:48
+#: Template/Tasks/index.ctp:44
+msgid ""
+"Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} "
+"total"
+msgstr ""
+"Pagina {{page}} van {{pages}}, tonend {{current}} record(s) van totaal "
+"{{count}}"
+
+#: Template/Projects/view.ctp:20
+msgid "Percentage completed"
+msgstr "Percentage voltooid"
+
+#: Template/Projects/view.ctp:38 Template/Tasks/view.ctp:53
+msgid "Related Tasks"
+msgstr "Bijbehorende taken"
+
+#: Template/Projects/view.ctp:51 Template/Tags/view.ctp:32
+msgid "Related Projects"
+msgstr "Bijbehorende projecten"
+
+#: Template/Projects/view.ctp:66 Template/Tags/edit.ctp:10
+#: Template/Tags/index.ctp:34 Template/Tags/view.ctp:49
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: Template/Projects/view.ctp:66 Template/Tags/edit.ctp:12
+#: Template/Tags/index.ctp:34 Template/Tags/view.ctp:10;49
+msgid "Are you sure you want to delete # {0}?"
+msgstr "Weet u zeker dat u # {0} wil verwijderen?"
+
+#: Template/Tags/add.ctp:19
+msgid "Add Tag"
+msgstr "Tag toevoegen"
+
+#: Template/Tags/edit.ctp:25 Template/Tags/view.ctp:9
+msgid "Edit Tag"
+msgstr "Tag wijzigen"
+
+#: Template/Tags/index.ctp:42
+msgid "first"
+msgstr "eerste"
+
+#: Template/Tags/index.ctp:43
+msgid "previous"
+msgstr "vorige"
+
+#: Template/Tags/index.ctp:45
+msgid "next"
+msgstr "volgende"
+
+#: Template/Tags/index.ctp:46
+msgid "last"
+msgstr "laatste"
+
+#: Template/Tags/view.ctp:10
+msgid "Delete Tag"
+msgstr "Tag verwijderen"
+
+#: Template/Tags/view.ctp:37
+msgid "Parent Id"
+msgstr "Ouder-ID"
+
+#: Template/Tasks/add.ctp:10
+msgid "List Parent Tasks"
+msgstr "Lijst bovenliggende taken"
+
+#: Template/Tasks/add.ctp:11
+msgid "New Parent Task"
+msgstr "Nieuwe bovenliggende taak"
+
+#: Template/Tasks/edit.ctp:8 Template/Tasks/view.ctp:24
+msgid "Project"
+msgstr "Project"
+
+#: Template/Tasks/view.ctp:10
+msgid "Complete Task"
+msgstr "Taak voltooien"
+
+#: Template/Tasks/view.ctp:10
+msgid "Are you sure you want to mark \"{0}\" completed?"
+msgstr "Weet u zeker dat u \"{0}\" voltooid wilt markeren?"
+
+#: Template/Tasks/view.ctp:12
+msgid "Archive Task"
+msgstr "Taak archiveren"
+
+#: Template/Tasks/view.ctp:20
+msgid "Parent Task"
+msgstr "Bovenliggende taak"
+
+#: Template/Tasks/view.ctp:36
+msgid "Description"
+msgstr "Omschrijving"
+
+#~ msgid "List Parent Projects"
+#~ msgstr "Lijst van bovenliggende projecten"
+
+#~ msgid "New Parent Project"
+#~ msgstr "Nieuw bovenliggend project"
+
+#~ msgid "Delete Task"
+#~ msgstr "Taak verwijderen"
+
+#~ msgid "The project has been deleted."
+#~ msgstr "Het project is verwijderd."
+
+#~ msgid "The project could not be deleted. Please, try again."
+#~ msgstr ""
+#~ "Het project kon niet worden verwijderd. Probeer alstublieft opnieuw."
+
+#~ msgid "The task has been deleted."
+#~ msgstr "De taak is verwijderd."
+
+#~ msgid "The task could not be deleted. Please, try again."
+#~ msgstr "De taak kon niet worden verwijderd. Probeer alstublieft opnieuw."
+
+#~ msgid "Delete Project"
+#~ msgstr "Project verwijderen"
+
+#~ msgid "Project Id"
+#~ msgstr "Project-ID"
+
+#~ msgid "Related Tags"
+#~ msgstr "Bijbehorende tags"

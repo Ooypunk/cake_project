@@ -1,0 +1,56 @@
+/*
+ * General settings
+ */
+.font_large {
+	font-size: large;
+}
+
+
+/*
+ * Project page
+ */
+.related {
+	margin-bottom: 10px;
+}
+
+.related.tasks {
+	margin-bottom: 30px;
+}
+
+th.id {
+	width: 5%;
+}
+th.actions {
+	width: 27%;
+}
+
+.space_tags button.tag {
+	margin-right: 1%;
+}
+
+.view_icons .active {
+
+}
+
+
+/*
+ * Treeview
+ */
+.treeview .list-group-item {
+	cursor: pointer;
+}
+
+.treeview span.indent {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.treeview span.icon {
+	width: 12px;
+	margin-right: 5px;
+}
+
+.treeview .node-disabled {
+	color: silver;
+	cursor: not-allowed;
+}

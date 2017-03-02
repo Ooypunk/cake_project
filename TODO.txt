@@ -1,0 +1,17 @@
+Taken
+
+
+Projecten
+
+.- Percentage voltooid:
+.-- onderliggende projecten ook meetellen
+.-- subtaken van taken ook meetellen
+
+
+.- archiveren van project: alles er onder ook archiveren
+.- idem taak
+
+
+.- iconen verzinnen voor beide: nu is niet duidelijk wat project of taak is
+glyphicon-tasks
+glyphicon-briefcase
