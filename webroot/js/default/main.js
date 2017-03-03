@@ -56,6 +56,17 @@ function getProjectsTree() {
 			$('#projects_tree').empty().treeview({
 				data: response
 			});
+
+			$.contextMenu({
+				selector: '.cmd_contextmenu',
+				items: {
+					edit: {name: "Edit", icon: "edit"},
+					cut: {name: "Cut", icon: "cut"},
+					copy: {name: "Copy", icon: "copy"},
+					paste: {name: "Paste", icon: "paste"},
+					delete: {name: "Delete", icon: "delete"}
+				}
+			});
 		}
 	});
 	return output;

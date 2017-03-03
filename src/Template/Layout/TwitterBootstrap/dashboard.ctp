@@ -3,10 +3,12 @@
 
 use Cake\Core\Configure;
 
-$this->Html->script('default/main.js', ['block' => true]);
-$this->Html->script('plugins/bootstrap-treeview.js', ['block' => true]);
+$this->Html->script('plugins/001.bootstrap-treeview', ['block' => true]);
+$this->Html->script('plugins/010.jquery.contextMenu', ['block' => true]);
+$this->Html->script('default/main', ['block' => true]);
 
 $this->Html->css('BootstrapUI.dashboard', ['block' => true]);
+$this->Html->css('contextmenu/jquery.contextMenu', ['block' => true]);
 $this->Html->css('main', ['block' => true]);
 $this->prepend('tb_body_attrs', ' class="' . implode(' ', [$this->request->controller, $this->request->action]) . '" ');
 $this->start('tb_body_start');
