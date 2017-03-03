@@ -62,7 +62,6 @@ $this->extend('../Layout/TwitterBootstrap/dashboard');
 			</div>
 		</div>
 		<div role="tabpanel" class="tab-pane" id="tab_projects_tree">
-			<button class="btn btn-danger cmd_contextmenu">klik mij</button>
 			<div id="projects_tree"></div>
 		</div>
 	</div>

@@ -58,13 +58,24 @@ function getProjectsTree() {
 			});
 
 			$.contextMenu({
-				selector: '.cmd_contextmenu',
+				selector: '#projects_tree .node-projects_tree',
 				items: {
-					edit: {name: "Edit", icon: "edit"},
-					cut: {name: "Cut", icon: "cut"},
-					copy: {name: "Copy", icon: "copy"},
-					paste: {name: "Paste", icon: "paste"},
-					delete: {name: "Delete", icon: "delete"}
+					edit: {name: "Wijzigen", icon: "edit"}
+				},
+				callback: function (itemKey, opt) {
+					switch (itemKey) {
+						case 'edit':
+							var trigger = opt.$trigger;
+							var project_id = trigger.context.dataset.nodeid;
+							var url = getBaseUrl() + '/projects/edit/' + project_id;
+							window.location.href = url;
+							return false;
+						default:
+							alert("Clicked on " + itemKey + " on element " + opt.$trigger.attr("id"));
+					}
+
+					// Do not close the menu after clicking an item
+					return false;
 				}
 			});
 		}
