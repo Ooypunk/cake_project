@@ -37,14 +37,16 @@ function getTasksTree() {
 			$.contextMenu({
 				selector: '#tasks_tree .node-tasks_tree',
 				items: {
+					view: {name: "Bekijken", icon: "edit"},
 					edit: {name: "Wijzigen", icon: "edit"}
 				},
 				callback: function (itemKey, opt) {
 					switch (itemKey) {
+						case 'view':
 						case 'edit':
 							var trigger = opt.$trigger;
 							var task_id = trigger.context.dataset.id;
-							var url = getBaseUrl() + '/tasks/edit/' + task_id;
+							var url = getBaseUrl() + '/tasks/' + itemKey + '/' + task_id;
 							window.location.href = url;
 							return false;
 						default:
@@ -82,14 +84,16 @@ function getProjectsTree() {
 			$.contextMenu({
 				selector: '#projects_tree .node-projects_tree',
 				items: {
+					view: {name: "Bekijken", icon: "edit"},
 					edit: {name: "Wijzigen", icon: "edit"}
 				},
 				callback: function (itemKey, opt) {
 					switch (itemKey) {
+						case 'view':
 						case 'edit':
 							var trigger = opt.$trigger;
 							var project_id = trigger.context.dataset.id;
-							var url = getBaseUrl() + '/projects/edit/' + project_id;
+							var url = getBaseUrl() + '/projects/' + itemKey + '/' + project_id;
 							window.location.href = url;
 							return false;
 						default:
