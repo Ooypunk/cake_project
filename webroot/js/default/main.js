@@ -33,6 +33,28 @@ function getTasksTree() {
 			$('#tasks_tree').empty().treeview({
 				data: response
 			});
+
+			$.contextMenu({
+				selector: '#tasks_tree .node-tasks_tree',
+				items: {
+					edit: {name: "Wijzigen", icon: "edit"}
+				},
+				callback: function (itemKey, opt) {
+					switch (itemKey) {
+						case 'edit':
+							var trigger = opt.$trigger;
+							var task_id = trigger.context.dataset.nodeid;
+							var url = getBaseUrl() + '/tasks/edit/' + task_id;
+							window.location.href = url;
+							return false;
+						default:
+							alert("Clicked on " + itemKey + " on element " + opt.$trigger.attr("id"));
+					}
+
+					// Do not close the menu after clicking an item
+					return false;
+				}
+			});
 		}
 	});
 	return output;
