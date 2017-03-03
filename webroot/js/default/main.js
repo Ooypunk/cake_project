@@ -43,7 +43,7 @@ function getTasksTree() {
 					switch (itemKey) {
 						case 'edit':
 							var trigger = opt.$trigger;
-							var task_id = trigger.context.dataset.nodeid;
+							var task_id = trigger.context.dataset.id;
 							var url = getBaseUrl() + '/tasks/edit/' + task_id;
 							window.location.href = url;
 							return false;
@@ -88,7 +88,7 @@ function getProjectsTree() {
 					switch (itemKey) {
 						case 'edit':
 							var trigger = opt.$trigger;
-							var project_id = trigger.context.dataset.nodeid;
+							var project_id = trigger.context.dataset.id;
 							var url = getBaseUrl() + '/projects/edit/' + project_id;
 							window.location.href = url;
 							return false;
