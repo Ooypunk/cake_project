@@ -127,6 +127,7 @@ class ProjectsController extends AppController {
 		foreach ($tree as $leaf) {
 			$node = new \stdClass();
 			$node->text = $leaf->title;
+			$node->id = $leaf->id;
 			$node->href = "#node-" . $leaf->id;
 			if (isset($leaf->children) && count($leaf->children) > 0) {
 				$node->nodes = $this->treeToJson($leaf->children);
